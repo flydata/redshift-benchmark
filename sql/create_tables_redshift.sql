@@ -18,7 +18,7 @@ create table advertisers (
 	attr1 varchar(255),
 	attr2 varchar(255),
 	attr3 varchar(255),
-	attr4 varchar(255) 
+	attr4 varchar(255)
 );
 create table imp_logs (
 	date datetime not null sortkey,
@@ -28,7 +28,7 @@ create table imp_logs (
 	attr1 varchar(255),
 	attr2 varchar(255),
 	attr3 varchar(255),
-	attr4 varchar(255) 
+	attr4 varchar(255)
 );
 create table click_logs (
 	date datetime not null sortkey,
@@ -39,5 +39,5 @@ create table click_logs (
 	attr1 varchar(255),
 	attr2 varchar(255),
 	attr3 varchar(255),
-	attr4 varchar(255) 
+	attr4 varchar(255)
 );
