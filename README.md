@@ -7,6 +7,15 @@ This project includes the data set for Redshift benchmark.
   - [amazon redshift is 10x faster and cheaper than hadoop hive](http://www.slideshare.net/Hapyrus/amazon-redshift-is-10x-faster-and-cheaper-than-hadoop-hive) (English)
   - [amazon redshift is 10x faster and cheaper than hadoop hive](http://www.slideshare.net/Hapyrus/amazon-redshift-hadoop-hive10) (Japanese)
 
+## Resources
+
+- Test Data
+  - s3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/ad_campaigns
+  - s3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/advertisers
+  - s3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/publishers
+  - s3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/imp_logs
+  - s3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/click_logs
+
 ## Requirements
 
   - Redshift cluster
