@@ -44,6 +44,4 @@ This project includes the data set for Redshift benchmark.
 
 ## License
 
-This project is liscensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
-
-Copyright © 2013, Hapyrus Inc. All rights reserved
+This project is liscensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) and powered by [Hapyrus Inc](http://hapyrus.com).
