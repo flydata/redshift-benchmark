@@ -1,5 +1,0 @@
-copy ad_campaigns from 's3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/ad_campaigns' CREDENTIALS 'aws_access_key_id=[aws-access-key-id];aws_secret_access_key=[aws-secret-access-key]' delimiter '	' REMOVEQUOTES GZIP;
-copy advertisers from 's3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/advertisers' CREDENTIALS 'aws_access_key_id=[aws-access-key-id];aws_secret_access_key=[aws-secret-access-key]' delimiter '	' REMOVEQUOTES GZIP;
-copy publishers from 's3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/publishers' CREDENTIALS 'aws_access_key_id=[aws-access-key-id];aws_secret_access_key=[aws-secret-access-key]' delimiter '	' REMOVEQUOTES GZIP;
-copy imp_logs from 's3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/imp_logs' CREDENTIALS 'aws_access_key_id=[aws-access-key-id];aws_secret_access_key=[aws-secret-access-key]' delimiter '	' REMOVEQUOTES GZIP;
-copy click_logs from 's3://hapyrus-examples/redshift-benchmark/ad-network-examples/case-01/click_logs' CREDENTIALS 'aws_access_key_id=[aws-access-key-id];aws_secret_access_key=[aws-secret-access-key]' delimiter '	' REMOVEQUOTES GZIP;

@@ -31,8 +31,8 @@ This project includes the data set for Redshift benchmark.
   - Create tables
     - run sql/create_tables_redshift.sql on your Redshift cluster
   - Copy the test data set on our s3 to your Redshift cluster(it took over 17 hours in our case)
-    - edit sql/copy_all.sql and write your own [aws-access-key-id] and [aws-secret-access-key].
-    - run sql/copy_all.sql on your Redshift cluster
+    - edit sql/copy_all_[data-size].sql and write your own [aws-access-key-id] and [aws-secret-access-key].
+    - run sql/copy_all_[data-size].sql on your Redshift cluster
   - Run the test sql
     - run sql/test-query.sql on your Redshift cluster
 
